@@ -42,9 +42,9 @@ This task focuses on recognizing and labeling key named entities in Indian court
 ## Part 2: Baseline Models Implementation 
 
 ### Models
-1. **Model 1:** Vanilla RNN  **MODEL-1**
-2. **Model 2:** LSTM         **MODEL-2**
-3. **Model 3:** GRU          **MODEL-3**
+1. **Model 1:** Vanilla RNN  
+2. **Model 2:** LSTM         
+3. **Model 3:** GRU          
 
 ### Pre-trained Word Embeddings
 - word2vec
@@ -62,7 +62,7 @@ This task focuses on recognizing and labeling key named entities in Indian court
 
 ## Part 3: BiLSTM-CRF Model Implementation 
 
-### Model 4: BiLSTM-CRF **MODEL-4**
+### Model 4: BiLSTM-CRF 
 - Implement the BiLSTM-CRF model as described in the reference paper.
 - Use three different pre-trained word embeddings (word2vec, GloVe, fasttext) and train a total of three models.
 
