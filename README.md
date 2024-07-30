@@ -20,9 +20,9 @@ This task focuses on recognizing and labeling key named entities in Indian court
 
 ---
 
-## Part 1: Data Preparation [12 Marks]
+## Part 1: Data Preparation 
 
-### A) Dataset Preparation (7 Marks)
+### A) Dataset Preparation 
 1. Split the training data into training and validation sets with an 85:15 ratio (randomly stratified).
 2. Implement BIO (Beginning-Intermediate-Outside) chunking for the dataset. Tokenize based on space and assign BIO labels (B_label, I_label, O).
 3. Save the processed data in the following format:
@@ -60,7 +60,7 @@ This task focuses on recognizing and labeling key named entities in Indian court
 
 ---
 
-## Part 3: BiLSTM-CRF Model Implementation [43 Marks]
+## Part 3: BiLSTM-CRF Model Implementation 
 
 ### Model 4: BiLSTM-CRF
 - Implement the BiLSTM-CRF model as described in the reference paper.
@@ -75,17 +75,4 @@ This task focuses on recognizing and labeling key named entities in Indian court
 4. Calculate label-wise F1 scores for the best-performing model and plot a bar graph or pie chart.
 
 ---
-
-## Deliverables
-
-- **JSON Files:**
-  - NER_train.json, NER_val.json, NER_test.json
-- **Saved Models:**
-  - 12 models (t1_<model>_<embedding>.pkl or t1_<model>_<embedding>.pt)
-- **Report PDF:**
-  - Data samples and preprocessing description
-  - All generated plots with analysis
-  - Performance tables for each model
-  - Label-wise F1 score plot
-  - Contribution of each team member
 
