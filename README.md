@@ -12,6 +12,7 @@ This task focuses on recognizing and labeling key named entities in Indian court
 
 ## 📂 Dataset
 - **Source:** [OpenNyai legal-NER dataset](https://opennayai-dataset-link)
+- Files are in format NER_.JSON
 - **Files:** Two JSON files (train and test data), each containing a list of dictionaries representing judgment cases. The `data` key contains the judgment text, and the `annotations` key contains the named entities, their spans, and corresponding labels.
 
 ## 📊 Evaluation Metrics
