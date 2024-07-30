@@ -39,7 +39,7 @@ This task focuses on recognizing and labeling key named entities in Indian court
 
 ---
 
-## Part 2: Baseline Models Implementation [45 Marks]
+## Part 2: Baseline Models Implementation 
 
 ### Models
 1. **Model 1:** Vanilla RNN  **MODEL-1**
